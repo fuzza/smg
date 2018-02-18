@@ -1,0 +1,6 @@
+sourceFiles:
+    - name: Source.swift
+      path: Source/Source.swift.stencil
+  testFiles:
+    - name: Test.swift
+      path: Test/Test.swift.stencil
