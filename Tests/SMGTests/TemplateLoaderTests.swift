@@ -19,6 +19,10 @@ class TemplateLoaderTests: XCTestCase {
     let config = try makeSut().load("module")
   }
 
+  func test_load_emptyConfig_throws() {
+    XCTAssertThrowsError(try makeSut().load("empty"))
+  }
+
   func test_load_ymlNotExists_throws() {
     XCTAssertThrowsError(try makeSut().load("module_no_smg"))
   }

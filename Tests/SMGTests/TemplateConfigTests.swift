@@ -11,11 +11,11 @@ class TemplateConfigTests: XCTestCase {
 
   let fixture: String = """
   sourceFiles:
-    - name: Source.swift
-      path: Source/Source.swift.stencil
+      - name: Source.swift
+        path: Source/Source.swift.stencil
   testFiles:
-    - name: Test.swift
-      path: Test/Test.swift.stencil
+      - name: Test.swift
+        path: Test/Test.swift.stencil
   """
 
   func test_decoding_returnsConifigFile() throws {

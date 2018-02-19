@@ -5,11 +5,11 @@
 import Foundation
 
 public struct TemplateFile: Codable {
-  let name: String
-  let path: String
+  public let name: String
+  public let path: String
 }
 
 public struct TemplateConfig: Codable {
-  let sourceFiles: [TemplateFile]
-  let testFiles: [TemplateFile]
+  public let sourceFiles: [TemplateFile]
+  public let testFiles: [TemplateFile]
 }
